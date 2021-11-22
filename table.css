@@ -19,10 +19,33 @@ table {
     background: gold;
   }
 
-  .selected {
+  /* Use this marker when you're at a cell but not necessarily selecting it */
+  .passing {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     border: 4px solid red;
   }
+
+  /* Use this marker when you've just selected a cell. */
+  .select {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 6px solid blue;   
+  }
+
+  .center {
+      margin-left: auto;
+      margin-right: auto;
+  }
   
+  .square {
+    width: 50%;
+  }
+  
+  .square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
