@@ -17,6 +17,8 @@ table {
     left: 0;
     right: 0;
     background: gold;
+    text-align: center;
+    font-size: 30px;
   }
 
   /* Use this marker when you're at a cell but not necessarily selecting it */
