@@ -16,9 +16,17 @@ table {
     bottom: 0;
     left: 0;
     right: 0;
-    background: gold;
     text-align: center;
     font-size: 30px;
+  }
+  .default_background {
+    background: lightblue;
+  }
+  .marker_background {
+    background: lightgreen;
+  }
+  .flash_background {
+    background: lightpink;
   }
 
   /* Use this marker when you're at a cell but not necessarily selecting it */
@@ -26,7 +34,7 @@ table {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border: 4px solid red;
+    border: 4px solid yellow;
   }
 
   /* Use this marker when you've just selected a cell. */
@@ -34,7 +42,7 @@ table {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border: 6px solid blue;   
+    border: 6px solid green;   
   }
 
   .center {
@@ -50,4 +58,12 @@ table {
     content: "";
     display: block;
     padding-bottom: 100%;
+  }
+
+  .message_bar {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: lightyellow;
   }
