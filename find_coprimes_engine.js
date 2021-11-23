@@ -69,7 +69,7 @@ function getPower(factor) {
         max_exp = 4;
     }
     
-    let final_exp = Math.ceil(Math.random() * max_exp);
+    let final_exp = Math.ceil(Math.pow(Math.random(), 4) * max_exp);
     if (final_exp == 0) {
         final_exp = 1;
     }
